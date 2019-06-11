@@ -1,4 +1,4 @@
-FROM codercom/ubuntu-dev
+FROM codercom/ubuntu-dev-llvm8
 
 RUN sudo apt-get update && sudo apt-get install bash-completion
 
